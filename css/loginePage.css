@@ -1,0 +1,105 @@
+body{
+    background-color: rgb(247 246 246);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.Welcome{
+    width: 100%;
+}
+.divWelcome{
+    width:60%;
+}
+.firstLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.firstLogo img{
+    width:60%;
+}
+.divAll{
+    display: flex;
+    
+}
+.h1{
+    color: #2c456c;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+.h1 span {
+    color: chocolate;
+    font-size: larger;
+}
+.divLogin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.input{
+    width: 350px;
+    height: 2.1rem;
+    color: #6173a2;
+    padding-left: 8px;
+    background: #fff;
+    border: 2px solid #2c456c;
+    -moz-border-radius: .04rem;
+    border-radius: 6px;
+    margin-bottom: 18px ;
+}
+.input:focus{
+    border:2px solid chocolate;
+    outline: none ;
+    
+}
+.labelCheckbox{
+    color: chocolate;
+}
+.checkbox{
+    cursor: pointer;
+}
+.signIn{
+    width: 364px;
+    height: 2.4rem;
+    background-color:chocolate ;
+    border:  1px solid chocolate;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #fff;
+    font-size: larger;
+    cursor: pointer;
+
+}
+.signIn:hover{
+    background-color:rgb(249, 133, 50) ;
+    color: #161b23;
+}
+.PasswordRecovery{
+    text-decoration: none;
+    cursor: pointer;
+}
+.PasswordRecovery:hover{
+    text-decoration: underline;
+    color: #4b7af2;
+}
+@media only screen and (max-width: 1000px){ 
+    .divWelcome{
+    display :none;
+    } 
+}
+@media only screen and (max-width: 1200px){ 
+    .divWelcome{
+     display :none;
+    } 
+    .div2{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20%;
+        
+    }
+}
+
+    
+

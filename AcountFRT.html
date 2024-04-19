@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="css/loginePageFRT.css">
+    <link rel="stylesheet" href="css/loginePageSTG.css">
+
+</head>
+<body>
+
+    <div class="divAll">
+        <div class="divWelcome">
+            <img src="img/welcome2.jpg" alt="Welcome" class="Welcome">
+        </div>
+        <div class="div2">
+            <div class="firstLogo">
+                <img src="img/ofpptlogo.jpg" alt="ofpptlogo">
+            </div>
+            <div class="divh1">
+                <h1 class="h1">
+                    welcome to your private <span>Account</span> </h1> 
+            </div>
+            <div class="divLogin">
+                <form action="#">
+                    <table>
+                        <tr>
+                            <td>
+                                <input type="text" placeholder="your registration number" class="input" id="userName" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="password" placeholder="password" class="input" id="password" required>
+                            </td>
+                            
+                        </tr>
+                        <tr class="trcheckbox">
+                            <td>
+                                <input type="checkbox" class="checkbox">
+                                <label for="" class="labelCheckbox">Save login data</label>
+                            </td>
+                            
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="submit" value="SIGN IN" class="signIn" onclick="functionfocuse()">
+                            </td>
+                            
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#" class="PasswordRecovery">Password Recovery ?</a>
+                            </td>
+                            
+                        </tr>
+                    </table>
+                </form>
+                </div>  
+        </div>     
+    </div>
+    <script src="js/loginPage.js"></script>
+    
+</body>
+</html>

@@ -1,8 +1,61 @@
-.firstLogo{
-    width: 100%;
+body{
+    background-color: rgb(247 246 246);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    user-select: none;
 }
-.divfirstLogo{
-    width: 50%;
-    
-   
+
+.divIspaceSTGFRT{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.imgIspaceSTG{
+    width:510px;
+    margin-right: 30px;
+    border-radius: 47px;
+    cursor: pointer;
+}
+.imgIspaceSTG:hover{
+    box-shadow: 2px 4px 4px 7px rgb(215, 224, 227);
+
+}
+.imgIspaceFRT{
+    width:345px;
+    border-radius: 47px;
+    cursor: pointer;
+}
+.imgIspaceFRT:hover{
+    box-shadow: 2px 4px 4px 7px rgb(215, 224, 227);
+
+}
+.H2Stag{
+    margin-left: 176px; 
+    color: chocolate;
+    cursor: pointer;
+
+}
+.H2Stag:hover{
+    color: #2f629a;
+}
+.H2Form{
+    margin-left: 68px; 
+    color: #2f629a;
+    cursor: pointer;
+
+}
+.H2Form:hover{
+    color: chocolate;
+}
+
+.divfirstLogo2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+    margin-bottom: 80px;
+    margin-left: -10px;
+}
+.firstLogo{
+    width: 300px;
 }
